@@ -1,5 +1,5 @@
 import { AnimatePresence, motion, MotionConfig } from 'motion/react';
-import { Footer } from './components/layout/Footer';
+import Footer from './components/layout/Footer';
 import { Navbar } from './components/layout/Navbar';
 import { MemoraProvider } from './hooks/useMemoraStore';
 import { useRouter } from './hooks/useRouter';
@@ -39,12 +39,7 @@ function MemoraShell() {
         </AnimatePresence>
       </main>
 
-      <Footer
-        onAction={() => {
-          navigate('/');
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        }}
-      />
+      <Footer />
     </div>
   );
 }

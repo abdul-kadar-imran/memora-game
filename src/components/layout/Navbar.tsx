@@ -73,7 +73,12 @@ export const Navbar: React.FC<NavbarProps> = ({ currentRoute, onNavigate }) => {
           className="group flex items-center gap-2.5 text-left whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#35C8E8] dark:focus-visible:outline-[#55D9FF] rounded-lg"
           aria-label="MEMORA Home"
         >
-          <MemoraLogoMark />
+          <img
+            src="/memora icon.png"
+            alt=""
+            className="h-10 w-10 shrink-0 object-contain"
+            draggable={false}
+          />
           <span className="text-lg font-bold tracking-tight text-[#20213A] dark:text-[#F5F5FF]">
             MEMORA
           </span>
@@ -87,11 +92,10 @@ export const Navbar: React.FC<NavbarProps> = ({ currentRoute, onNavigate }) => {
           <button
             type="button"
             onClick={() => onNavigate('/')}
-            className={`flex items-center gap-2 rounded-lg px-3.5 py-2 text-sm font-semibold whitespace-nowrap shrink-0 transition-colors min-h-[38px] ${
-              currentRoute === '/'
-                ? 'bg-[#FFFFFF] dark:bg-[#171C35] text-[#20213A] dark:text-[#F5F5FF] shadow-[0_0_0_1px_rgba(128,86,232,0.38)] dark:shadow-[0_0_0_1px_rgba(155,123,255,0.45)]'
-                : 'text-[#5E6282] dark:text-[#929BB8] hover:text-[#20213A] dark:hover:text-[#F5F5FF]'
-            }`}
+            className={`flex items-center gap-2 rounded-lg px-3.5 py-2 text-sm font-semibold whitespace-nowrap shrink-0 transition-colors min-h-[38px] ${currentRoute === '/'
+              ? 'bg-[#FFFFFF] dark:bg-[#171C35] text-[#20213A] dark:text-[#F5F5FF] shadow-[0_0_0_1px_rgba(128,86,232,0.38)] dark:shadow-[0_0_0_1px_rgba(155,123,255,0.45)]'
+              : 'text-[#5E6282] dark:text-[#929BB8] hover:text-[#20213A] dark:hover:text-[#F5F5FF]'
+              }`}
           >
             <Gamepad2
               className="h-4 w-4 text-[#8056E8] dark:text-[#9B7BFF]"
@@ -103,11 +107,10 @@ export const Navbar: React.FC<NavbarProps> = ({ currentRoute, onNavigate }) => {
           <button
             type="button"
             onClick={() => onNavigate('/dashboard')}
-            className={`flex items-center gap-2 rounded-lg px-3.5 py-2 text-sm font-semibold whitespace-nowrap shrink-0 transition-colors min-h-[38px] ${
-              currentRoute === '/dashboard'
-                ? 'bg-[#FFFFFF] dark:bg-[#171C35] text-[#20213A] dark:text-[#F5F5FF] shadow-[0_0_0_1px_rgba(53,200,232,0.45)] dark:shadow-[0_0_0_1px_rgba(85,217,255,0.45)]'
-                : 'text-[#5E6282] dark:text-[#929BB8] hover:text-[#20213A] dark:hover:text-[#F5F5FF]'
-            }`}
+            className={`flex items-center gap-2 rounded-lg px-3.5 py-2 text-sm font-semibold whitespace-nowrap shrink-0 transition-colors min-h-[38px] ${currentRoute === '/dashboard'
+              ? 'bg-[#FFFFFF] dark:bg-[#171C35] text-[#20213A] dark:text-[#F5F5FF] shadow-[0_0_0_1px_rgba(53,200,232,0.45)] dark:shadow-[0_0_0_1px_rgba(85,217,255,0.45)]'
+              : 'text-[#5E6282] dark:text-[#929BB8] hover:text-[#20213A] dark:hover:text-[#F5F5FF]'
+              }`}
           >
             <BarChart3
               className="h-4 w-4 text-[#35C8E8] dark:text-[#55D9FF]"
@@ -187,7 +190,13 @@ export const Navbar: React.FC<NavbarProps> = ({ currentRoute, onNavigate }) => {
             className="group justify-self-center flex items-center gap-2 whitespace-nowrap rounded-lg py-0.5 focus-visible:outline-2 focus-visible:outline-[#35C8E8] dark:focus-visible:outline-[#55D9FF]"
             aria-label="MEMORA Home"
           >
-            <MemoraLogoMark />
+            <img
+              src="/memora icon.png"
+              alt=""
+              className="h-7 w-7 shrink-0 object-contain"
+              draggable={false}
+            />
+
             <span className="text-base font-extrabold tracking-wide text-[#20213A] dark:text-[#F5F5FF]">
               MEMORA
             </span>
@@ -218,11 +227,10 @@ export const Navbar: React.FC<NavbarProps> = ({ currentRoute, onNavigate }) => {
           <button
             type="button"
             onClick={() => onNavigate('/')}
-            className={`flex items-center justify-center gap-2 rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors min-h-[40px] ${
-              currentRoute === '/'
-                ? 'bg-[#FFFFFF] dark:bg-[#171C35] text-[#20213A] dark:text-[#F5F5FF] shadow-[0_0_0_1px_rgba(128,86,232,0.4)] dark:shadow-[0_0_0_1px_rgba(155,123,255,0.5)]'
-                : 'text-[#5E6282] dark:text-[#929BB8] active:text-[#20213A] dark:active:text-[#F5F5FF]'
-            }`}
+            className={`flex items-center justify-center gap-2 rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors min-h-[40px] ${currentRoute === '/'
+              ? 'bg-[#FFFFFF] dark:bg-[#171C35] text-[#20213A] dark:text-[#F5F5FF] shadow-[0_0_0_1px_rgba(128,86,232,0.4)] dark:shadow-[0_0_0_1px_rgba(155,123,255,0.5)]'
+              : 'text-[#5E6282] dark:text-[#929BB8] active:text-[#20213A] dark:active:text-[#F5F5FF]'
+              }`}
           >
             <Gamepad2
               className="h-4 w-4 text-[#8056E8] dark:text-[#9B7BFF]"
@@ -234,11 +242,10 @@ export const Navbar: React.FC<NavbarProps> = ({ currentRoute, onNavigate }) => {
           <button
             type="button"
             onClick={() => onNavigate('/dashboard')}
-            className={`flex items-center justify-center gap-2 rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors min-h-[40px] ${
-              currentRoute === '/dashboard'
-                ? 'bg-[#FFFFFF] dark:bg-[#171C35] text-[#20213A] dark:text-[#F5F5FF] shadow-[0_0_0_1px_rgba(53,200,232,0.45)] dark:shadow-[0_0_0_1px_rgba(85,217,255,0.5)]'
-                : 'text-[#5E6282] dark:text-[#929BB8] active:text-[#20213A] dark:active:text-[#F5F5FF]'
-            }`}
+            className={`flex items-center justify-center gap-2 rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors min-h-[40px] ${currentRoute === '/dashboard'
+              ? 'bg-[#FFFFFF] dark:bg-[#171C35] text-[#20213A] dark:text-[#F5F5FF] shadow-[0_0_0_1px_rgba(53,200,232,0.45)] dark:shadow-[0_0_0_1px_rgba(85,217,255,0.5)]'
+              : 'text-[#5E6282] dark:text-[#929BB8] active:text-[#20213A] dark:active:text-[#F5F5FF]'
+              }`}
           >
             <BarChart3
               className="h-4 w-4 text-[#35C8E8] dark:text-[#55D9FF]"
