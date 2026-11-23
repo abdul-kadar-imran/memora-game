@@ -1,279 +1,189 @@
-🧠 MEMORA — Beyond Memory
+# 🧠 MEMORA — Beyond Memory
 
-Every flip, a spark. Every match, a memory.
+<div align="center">
 
-A sharper mind begins with one move.
+# **MEMORA**
 
-MEMORA is an interactive brain-training and memory game platform designed to challenge your mind, improve memory, sharpen focus, and make learning through play more engaging.
+### *Every Flip, A Spark. Every Match, A Memory.*
 
-Featuring multiple game modes, dynamic scoring, XP progression, achievements, and performance tracking, MEMORA transforms simple memory exercises into an immersive gaming experience.
+A modern interactive memory game platform designed to challenge your mind, sharpen your focus, and improve your memory through engaging brain-training experiences.
 
-🌐 Live Demo
+🌐 **Live Demo**
 
-Live Application: https://memora-game.vercel.app/
+[https://memora-game.vercel.app/](https://memora-game.vercel.app/)
 
-Repository: https://github.com/abdul-kadar-imran/memora-game
+📂 **GitHub Repository**
 
-✨ About MEMORA
+[https://github.com/abdul-kadar-imran/memora-game](https://github.com/abdul-kadar-imran/memora-game)
 
-MEMORA is more than a traditional memory matching game. It is a browser-based cognitive gaming experience that encourages players to improve their memory, concentration, observation, and reaction speed.
+</div>
 
-Players can explore different challenges, earn experience points, unlock achievements, track their progress, and compete against their own previous performance.
+---
 
-The application combines interactive gameplay with a modern user interface, smooth animations, and persistent player statistics.
+# 📖 About
 
-🎮 Game Modes
+MEMORA is an interactive memory-training platform built for anyone who enjoys challenging their mind through fun and engaging games.
 
-MEMORA features three unique game modes.
+It transforms traditional memory exercises into an immersive gaming experience with multiple game modes, dynamic scoring, XP progression, achievements, and performance tracking.
 
-1. Normal Memory Match
+Whether you're testing your visual memory, racing against time, or challenging your ability to recall disappearing symbols, MEMORA makes every game an opportunity to think sharper and remember better.
 
-Test your visual memory by finding matching pairs hidden inside a shuffled card grid.
+---
 
-Features:
+# ✨ Features
 
-Multiple difficulty levels.
+### 🃏 Normal Memory Match
 
-Easy, Medium, and Hard challenges.
+Test your visual memory by finding identical pairs hidden inside a shuffled card grid.
 
-Interactive card-flipping animations.
+- Multiple Difficulty Levels
+- Interactive Card Flipping
+- Match Detection
+- Move Counter
+- Game Timer
+- Accuracy Tracking
+- Performance Scoring
 
-Match detection and feedback.
+---
 
-Move counter and game timer.
+### ⚡ Time Attack
 
-Accuracy and score tracking.
+Challenge yourself to find as many matching pairs as possible before time runs out.
 
-Final performance summary.
+- 60-Second Challenge
+- Real-Time Countdown
+- Unlimited Matching Attempts
+- Combo Multiplier System
+- Score Tracking
+- Highest Combo Tracking
+- Final Performance Summary
 
-2. Time Attack
+---
 
-How many matching pairs can you discover before time runs out?
+### 🧩 Disappearing Memory
 
-Features:
+Observe, memorize, and recall. Remember the original symbols before they disappear and identify them from a larger selection.
 
-Countdown-based gameplay.
+- Timed Memorization
+- Multiple Difficulty Levels
+- Randomized Symbols
+- Interactive Selection
+- Correct & Incorrect Answer Tracking
+- Accuracy Calculation
+- Final Result Summary
 
-60-second challenge.
+---
 
-Score-based progression.
+### 🏆 XP & Level Progression
 
-Combo multiplier system.
+Every completed challenge brings you closer to your next milestone.
 
-Consecutive match rewards.
+- Experience Points (XP)
+- Player Level Progression
+- Performance-Based Rewards
+- XP Progress Tracking
+- Achievement Unlocking
 
-Highest combo tracking.
+---
 
-Final score and accuracy summary.
+### 🥇 Achievement System
 
-3. Disappearing Memory
+Unlock achievements by completing challenges and reaching gameplay milestones.
 
-Observe, memorize, and recall.
+- First Match
+- Memory Starter
+- Perfect Recall
+- Speed Master
+- Combo King
+- Daily Thinker
+- Brain Explorer
+- Memory Legend
 
-Players are shown a collection of symbols for a limited time. Once the symbols disappear, they must identify the original items from a larger selection.
+---
 
-Features:
+### 📊 Player Dashboard
 
-Multiple difficulty levels.
+Track your performance and explore your gaming progress through a dedicated dashboard.
 
-Limited memorization time.
+- Total Games Played
+- Total XP Earned
+- Current Player Level
+- Best Score
+- Average Accuracy
+- Total Matched Pairs
+- Total Playtime
+- Best Completion Time
+- Highest Combo
+- Recent Game History
+- Achievement Progress
 
-Randomized symbols and distractors.
+---
 
-Interactive selection system.
+### 🎨 Modern Interface
 
-Correct, incorrect, and missed answer tracking.
+- Premium Light Theme
+- Futuristic Dark Theme
+- Smooth Card Animations
+- Interactive UI Elements
+- Purple & Blue Color Gradients
+- Clean Typography
+- Modern Card-Based Layout
+- Responsive Design
 
-Accuracy and performance scoring.
+---
 
-🏆 Player Progression
+### 💾 Local Data Persistence
 
-MEMORA makes every completed challenge count.
+Keep your supported gaming progress available between visits.
 
-XP & Level System
+- Player Profile
+- XP & Level Data
+- Game History
+- Best Scores
+- Achievement Progress
+- Theme Preferences
 
-Earn XP through completed games.
+---
 
-Accumulate experience points.
+# 🎯 Why MEMORA?
 
-Progress through player levels.
+MEMORA makes memory training more engaging by combining interactive gameplay with rewarding progression.
 
-Track total XP and level progression.
+Instead of repeating traditional memory exercises, players can explore different challenges, improve their performance, earn XP, unlock achievements, and track their progress.
 
-Achievements
+**One platform. Three challenges. Endless possibilities to improve.**
 
-Unlock achievements by reaching gameplay milestones.
+---
 
-Examples include:
+# 💡 Use Cases
 
-Achievement
+- Memory Training
+- Brain Exercise
+- Visual Recognition Practice
+- Concentration Improvement
+- Reaction Speed Challenges
+- Cognitive Skill Practice
+- Casual Gaming
+- Personal Performance Tracking
 
-Objective
+---
 
-First Match
+# 🛠️ Tech Stack
 
-Complete your first game
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Motion / Framer Motion
+- Lucide React
+- Recharts
+- LocalStorage
 
-Memory Starter
+---
 
-Play 5 games
+# 📂 Project Structure
 
-Perfect Recall
-
-Achieve perfect accuracy
-
-Speed Master
-
-Complete a speed challenge
-
-Combo King
-
-Reach a 5-match combo
-
-Daily Thinker
-
-Maintain a 3-day streak
-
-Brain Explorer
-
-Play all three game modes
-
-Memory Legend
-
-Reach 2,500 XP
-
-Player Dashboard
-
-The dashboard provides an overview of player performance.
-
-Statistics include:
-
-Total games played.
-
-Total XP earned.
-
-Current player level.
-
-Best score.
-
-Average accuracy.
-
-Total matched pairs.
-
-Total playtime.
-
-Best completion time.
-
-Highest combo.
-
-Recent game history.
-
-Achievement progress.
-
-Charts and statistics help players understand their progress over time.
-
-🎨 Design & User Experience
-
-MEMORA follows a modern, minimal, and futuristic gaming aesthetic.
-
-Visual Identity
-
-Clean and responsive interface.
-
-Premium card-based layouts.
-
-Smooth transitions and micro-interactions.
-
-Interactive game animations.
-
-Modern typography.
-
-Accessible visual hierarchy.
-
-Theme System
-
-MEMORA supports two visual themes.
-
-Light Theme
-
-Soft lavender backgrounds.
-
-White card surfaces.
-
-Vibrant purple and electric blue accents.
-
-Cyan highlights.
-
-Clean and minimal appearance.
-
-Dark Theme
-
-Deep navy backgrounds.
-
-Dark layered surfaces.
-
-Purple and blue gradients.
-
-Neon-inspired highlights.
-
-Immersive gaming atmosphere.
-
-Players can switch between themes, with their preference saved locally.
-
-Responsive Design
-
-MEMORA is designed to work across:
-
-Desktop computers.
-
-Laptops.
-
-Tablets.
-
-Mobile devices.
-
-🛠️ Technology Stack
-
-Technology
-
-Purpose
-
-React
-
-User interface development
-
-Vite
-
-Development server and build tooling
-
-TypeScript
-
-Type safety and maintainable code
-
-Tailwind CSS
-
-Responsive styling
-
-Framer Motion / Motion
-
-Animations and transitions
-
-Lucide React
-
-Interface icons
-
-LocalStorage
-
-Persistent player data
-
-Recharts
-
-Data visualization
-
-📂 Project Structure
-
-The project follows a minimal and organized structure.
-
+```text
 memora/
 │
 ├── public/
@@ -297,156 +207,181 @@ memora/
 ├── package.json
 ├── package-lock.json
 ├── tsconfig.json
-├── vite.config.ts
-├── tailwind.config.js
-└── postcss.config.js
+└── vite.config.ts
+```
 
-The structure above represents the intended minimal architecture; individual files may vary in the current implementation.
+---
 
-⚙️ Getting Started
+# 🚀 Installation
 
-Follow these steps to run MEMORA locally.
+Clone the repository
 
-Prerequisites
+```bash
+git clone https://github.com/abdul-kadar-imran/memora-game.git
+```
 
-Make sure you have installed:
+Navigate to the project
 
-Node.js
+```bash
+cd memora-game
+```
 
-npm
+Install dependencies
 
-Git
-
-A code editor such as Visual Studio Code
-
-1. Clone the Repository
-
-git clone YOUR_REPOSITORY_URL
-
-2. Navigate to the Project
-
-cd memora
-
-3. Install Dependencies
-
+```bash
 npm install
+```
 
-4. Start the Development Server
+Run the development server
 
+```bash
 npm run dev
+```
 
-Open the local URL displayed in your terminal.
+Create a production build
 
-5. Build for Production
-
+```bash
 npm run build
+```
 
-6. Preview the Production Build
+Preview the production build
 
+```bash
 npm run preview
+```
 
-💾 Data Persistence
+---
 
-MEMORA uses browser LocalStorage for client-side persistence.
+# 🎮 Game Modes & Difficulty
 
-Player information and supported gameplay data can be retained between visits, including:
+| Game Mode | Challenge |
+|---|---|
+| Normal Match | Find identical card pairs |
+| Time Attack | Match as many pairs as possible in 60 seconds |
+| Disappearing Memory | Memorize and identify hidden symbols |
 
-Player profile.
+### Normal Match Difficulty
 
-XP and level progression.
+| Difficulty | Grid Size | Pairs |
+|---|---:|---:|
+| Easy | 4 × 4 | 8 |
+| Medium | 6 × 4 | 12 |
+| Hard | 6 × 6 | 18 |
 
-Game history.
+### Disappearing Memory Difficulty
 
-Best scores.
+| Difficulty | Original Symbols | Options | Memorization Time |
+|---|---:|---:|---:|
+| Easy | 4 | 8 | 5 seconds |
+| Medium | 5 | 12 | 4 seconds |
+| Hard | 6 | 16 | 3 seconds |
 
-Achievements.
+---
 
-Theme preferences.
+# 💾 Data Storage
 
-Gameplay statistics.
+MEMORA uses browser LocalStorage to maintain supported player data without requiring a backend server.
 
-Note: LocalStorage is browser-specific. Data is not automatically synchronized across devices or browsers. Clearing browser storage can remove locally saved progress.
+Stored information includes:
 
-🚀 Deployment
+- Player Profile
+- Experience Points
+- Level Progression
+- Completed Game Sessions
+- Best Scores
+- Achievements
+- Game Statistics
+- Theme Preferences
 
-MEMORA can be deployed as a frontend application using platforms such as Vercel.
+**Note:** Data is stored locally in the browser and is not automatically synchronized between devices. Clearing browser storage may remove saved progress.
 
-Deploy using Vercel
+---
 
-Push the project to GitHub.
+# 🌐 Deployment
 
-Open Vercel.
+MEMORA is deployed using **Vercel**.
 
-Import your GitHub repository.
+Live Application:
 
-Select Vite as the framework preset.
+[https://memora-game.vercel.app/](https://memora-game.vercel.app/)
 
-Set the build command to npm run build.
+### Deploy Your Own Version
 
-Set the output directory to dist.
+1. Fork or clone the GitHub repository.
+2. Import the repository into Vercel.
+3. Select Vite as the framework preset.
+4. Configure the build command as `npm run build`.
+5. Set the output directory to `dist`.
+6. Deploy your application.
 
-Deploy your application.
+---
 
-No backend server is required for the LocalStorage-based implementation.
+# 🎯 Future Enhancements
 
-🎯 Project Goals
+- 🌍 Global Leaderboards
+- 👥 Multiplayer Memory Challenges
+- 📅 Daily Brain Training Missions
+- 🎮 Additional Game Modes
+- ☁️ Cloud-Based Player Accounts
+- 🔄 Cross-Device Progress Synchronization
+- 📈 Advanced Performance Analytics
+- 🎖️ Seasonal Achievements
+- 🏅 Competitive Gaming Challenges
 
-MEMORA aims to:
+---
 
-Make memory training interactive and enjoyable.
+# 🤝 Contributing
 
-Encourage consistent cognitive practice.
+Contributions, ideas, and feature suggestions are welcome.
 
-Improve visual recognition and recall.
+Feel free to fork the repository, explore the project, and submit a Pull Request.
 
-Challenge players through different difficulty levels.
+---
 
-Reward progress through achievements and XP.
-
-Provide an engaging and accessible gaming experience.
-
-🔮 Future Enhancements
-
-Potential features for future versions include:
-
-Global leaderboards.
-
-Multiplayer memory challenges.
-
-Daily brain-training missions.
-
-Additional memory game modes.
-
-Cloud-based player accounts.
-
-Cross-device progress synchronization.
-
-Advanced player analytics.
-
-Custom player profiles and avatars.
-
-Weekly challenges and competitions.
-
-👨‍💻 Developer
-
-Abdul Kadar (Imran)
-
-Full-Stack Developer | UI/UX Designer
-
-Portfolio: https://imran-desktop.vercel.app/
-
-📄 License
+# 📄 License
 
 This project is currently a personal development project.
 
-Add an appropriate open-source license before allowing others to reuse, modify, or distribute the project.
+Add an appropriate open-source license to the repository before permitting reuse, modification, or redistribution.
 
-<p align="center">
+---
 
-MEMORA — BEYOND MEMORY
+# 👨‍💻 Author
 
-Every flip, a spark. Every match, a memory.
+**Abdul Kadar Imran**
 
-A sharper mind begins with one move.
+Frontend Developer • Full-Stack Developer • UI/UX Designer
 
-</p>
+🌐 **Portfolio**
+
+[https://imran-desktop.vercel.app/](https://imran-desktop.vercel.app/)
+
+💻 **GitHub**
+
+[https://github.com/abdul-kadar-imran](https://github.com/abdul-kadar-imran)
+
+---
+
+# ⭐ Support
+
+If you enjoyed playing MEMORA, consider giving the project a ⭐ on GitHub.
+
+Your support motivates future improvements and the development of more interactive experiences.
+
+---
+
+<div align="center">
+
+## 🧠 Think Sharper. Remember Better.
+
+# **MEMORA — BEYOND MEMORY**
+
+### *Every flip, a spark. Every match, a memory.*
+
+**A sharper mind begins with one move.**
+
+<br/>
+
+Built with ❤️ by **Abdul Kadar Imran**
+
+</div>
