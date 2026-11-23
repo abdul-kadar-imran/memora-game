@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+  <title>MEMORA | Beyond Memory</title>
+  <meta name="description" content="A sharper mind begins with one move. " />
+  <meta property="og:title" content="MEMORA | Beyond Memory" />
+  <meta property="og:description" content="A sharper mind begins with one move." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script>
+    (function () {
+      try {
+        var theme = window.localStorage.getItem('memora_theme_v1');
+        if (!theme) {
+          var raw = window.localStorage.getItem('memora_beyond_memory_v1');
+          if (raw) {
+            var parsed = JSON.parse(raw);
+            if (parsed && parsed.settings && parsed.settings.theme) {
+              theme = parsed.settings.theme;
+            }
+          }
+        }
+        if (theme === 'light') {
+          document.documentElement.classList.remove('dark');
+        } else {
+          document.documentElement.classList.add('dark');
+        }
+      } catch (e) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700&family=Orbitron:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body
+  class="bg-[#F8F7FF] text-[#20213A] dark:bg-[#090B18] dark:text-[#F5F5FF] antialiased selection:bg-[#8056E8]/25 selection:text-[#20213A] dark:selection:bg-[#9B7BFF]/30 dark:selection:text-[#F5F5FF] transition-colors duration-200">
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
